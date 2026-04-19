@@ -556,7 +556,9 @@
           "tunnel"
         ]
       ],
-      "paint": {"fill-color": "#AECFE2"}
+      "paint": {
+        "fill-color": "rgba(0, 162, 255, 1)"
+      }
     },
     {
       "id": "water-intermittent",
@@ -1279,7 +1281,10 @@
         true,
         false
       ],
-      "layout": {"line-join": "round"},
+      "layout": {
+        "line-join": "round",
+        "visibility": "none"
+      },
       "paint": {
         "line-color": "rgba(108, 159, 182, 1)",
         "line-dasharray": [2, 2],
